@@ -1,0 +1,14 @@
+
+#include "system\dialog\dialog_defines.hpp"
+#include "system\dialog\dialog_repair.hpp"
+
+class CfgSounds
+{
+	sounds[] = {};
+	#include "system\sounds\system_sound.h"
+};
+
+class CfgFunctions
+{
+	#include "custom_code.h"
+};
